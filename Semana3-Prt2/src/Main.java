@@ -1,4 +1,5 @@
 import Funciones.EjemplosMetodos;
+import Funciones.SobreCarga;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
@@ -17,6 +18,14 @@ public class Main {
         ejemplosMetodos.intercambiarDatos(numeros,0,3);
 
         ejemplosMetodos.ordenarLista(numeros);
+
+
+        SobreCarga sobreCarga = new SobreCarga();
+        //sobreCarga.multiplicar(15,12);
+        //sobreCarga.multiplicar(15.5,18.2);
+        Integer valor = sobreCarga.multiplicar(15,12,3);
+        sobreCarga.imprimirMensaje((valor.toString()));
+
 
     }
 }
