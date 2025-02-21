@@ -8,6 +8,12 @@ public class Persona {
     private  String apellido;
     private Integer edad;
 
+    public boolean registrarAsistencia(
+            String codIdentiifcador,String fechaAsistencia,String HoraAsistencia,Boolean ValorAsistencia){
+        return true;
+    }
+
+
     public Integer getId() {
         return id;
     }
