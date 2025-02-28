@@ -1,0 +1,32 @@
+body{
+    background-color: cornflowerblue;
+}
+.title{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.imagenIdat{
+    width: 300px;
+    height: 200px;
+}
+
+ul>li{
+    list-style: none;
+}
+.container{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.formulario{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    
+}
+.table{
+    width: 500px;
+}
